@@ -1,4 +1,4 @@
-import 'dash/core/serviceLocator';
+import './serviceLocator';
 
 export class dash {
     testCall()

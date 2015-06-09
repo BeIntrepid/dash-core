@@ -1,4 +1,4 @@
-System.register(["dash/core/serviceLocator"], function (_export) {
+System.register(["./serviceLocator"], function (_export) {
     "use strict";
 
     var dash;
@@ -6,7 +6,7 @@ System.register(["dash/core/serviceLocator"], function (_export) {
     function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
     return {
-        setters: [function (_dashCoreServiceLocator) {}],
+        setters: [function (_serviceLocator) {}],
         execute: function () {
             dash = (function () {
                 function dash() {
