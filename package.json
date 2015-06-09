@@ -1,0 +1,30 @@
+{
+  "jspm": {
+    "main": "index",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4",
+      "gulp": "npm:gulp@^3.9.0",
+      "require-dir": "npm:require-dir@^0.3.0",
+      "run-sequence": "npm:run-sequence@^1.1.0"
+    }
+  },
+  "devDependencies": {   
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.1.0",
+    "gulp-bump": "^0.1.11",
+    "gulp-jshint": "^1.9.0",
+    "gulp-yuidoc": "^0.1.2",
+	"del": "^1.1.0",
+    "object.assign": "^1.0.3",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2",
+	"vinyl-paths": "^1.0.0"
+  }
+}
