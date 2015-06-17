@@ -1,9 +1,9 @@
-System.register(["./serviceLocator"], function (_export) {
-    "use strict";
+System.register(['./serviceLocator'], function (_export) {
+    'use strict';
 
     var serviceLocator, dash;
 
-    function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+    function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
     return {
         setters: [function (_serviceLocator) {
@@ -15,14 +15,12 @@ System.register(["./serviceLocator"], function (_export) {
                     _classCallCheck(this, dash);
                 }
 
-                dash.prototype.testCall = function testCall() {
-                    console.log("yaaaay");
-                };
+                dash.prototype.testCall = function testCall() {};
 
                 return dash;
             })();
 
-            _export("dash", dash);
+            _export('dash', dash);
         }
     };
 });
