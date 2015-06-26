@@ -35,5 +35,6 @@
     "karma-jasmine": "^0.3.5",
     "karma-jspm": "^1.1.5",
     "yargs": "^3.12.0"
-  }
+  },
+  "version": "0.0.1"
 }
