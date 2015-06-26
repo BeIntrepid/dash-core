@@ -2,8 +2,6 @@
   "name": "dash-core",
   "version": "0.0.1",
   "jspm": {
-    "main": "index",
-    "format": "register",
     "directories": {
       "lib": "dist/system"
     },
