@@ -1,7 +1,7 @@
 System.register([], function (_export) {
     "use strict";
 
-    var serviceLocator;
+    var ServiceLocator;
 
     var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
@@ -10,25 +10,25 @@ System.register([], function (_export) {
     return {
         setters: [],
         execute: function () {
-            serviceLocator = (function () {
-                function serviceLocator() {
-                    _classCallCheck(this, serviceLocator);
+            ServiceLocator = (function () {
+                function ServiceLocator() {
+                    _classCallCheck(this, ServiceLocator);
                 }
 
-                serviceLocator.prototype.getServices = function getServices() {
-                    return serviceLocator.services;
+                ServiceLocator.prototype.getServices = function getServices() {
+                    return ServiceLocator.services;
                 };
 
-                _createClass(serviceLocator, null, [{
+                _createClass(ServiceLocator, null, [{
                     key: "services",
                     value: {},
                     enumerable: true
                 }]);
 
-                return serviceLocator;
+                return ServiceLocator;
             })();
 
-            _export("serviceLocator", serviceLocator);
+            _export("ServiceLocator", ServiceLocator);
         }
     };
 });

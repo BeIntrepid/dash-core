@@ -1,20 +1,20 @@
 System.register([], function (_export) {
     "use strict";
 
-    var dataContext;
+    var DataContext;
 
     function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
     return {
         setters: [],
         execute: function () {
-            dataContext = function dataContext() {
-                _classCallCheck(this, dataContext);
+            DataContext = function DataContext() {
+                _classCallCheck(this, DataContext);
 
                 this.components = [];
             };
 
-            _export("dataContext", dataContext);
+            _export("DataContext", DataContext);
         }
     };
 });

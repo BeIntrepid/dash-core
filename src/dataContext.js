@@ -1,3 +1,3 @@
-export class dataContext {
+export class DataContext {
     components = []
 }

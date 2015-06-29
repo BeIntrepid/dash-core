@@ -1,6 +1,6 @@
-import {serviceLocator} from './serviceLocator';
+import {ServiceLocator} from './serviceLocator';
 
-export class dash {
+export class Dash {
     testCall()
     {
 

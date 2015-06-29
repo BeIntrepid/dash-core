@@ -3,9 +3,9 @@ System.register(['./dash', './serviceLocator'], function (_export) {
 
   return {
     setters: [function (_dash) {
-      _export('dash', _dash.dash);
+      _export('Dash', _dash.Dash);
     }, function (_serviceLocator) {
-      _export('serviceLocator', _serviceLocator.serviceLocator);
+      _export('ServiceLocator', _serviceLocator.ServiceLocator);
     }],
     execute: function () {}
   };

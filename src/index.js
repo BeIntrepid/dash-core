@@ -1,2 +1,2 @@
-export {dash} from './dash'
-export {serviceLocator} from './serviceLocator'
+export {Dash} from './dash'
+export {ServiceLocator} from './serviceLocator'

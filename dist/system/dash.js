@@ -1,26 +1,26 @@
 System.register(['./serviceLocator'], function (_export) {
     'use strict';
 
-    var serviceLocator, dash;
+    var ServiceLocator, Dash;
 
     function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
     return {
         setters: [function (_serviceLocator) {
-            serviceLocator = _serviceLocator.serviceLocator;
+            ServiceLocator = _serviceLocator.ServiceLocator;
         }],
         execute: function () {
-            dash = (function () {
-                function dash() {
-                    _classCallCheck(this, dash);
+            Dash = (function () {
+                function Dash() {
+                    _classCallCheck(this, Dash);
                 }
 
-                dash.prototype.testCall = function testCall() {};
+                Dash.prototype.testCall = function testCall() {};
 
-                return dash;
+                return Dash;
             })();
 
-            _export('dash', dash);
+            _export('Dash', Dash);
         }
     };
 });

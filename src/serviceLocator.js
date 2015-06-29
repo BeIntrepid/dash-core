@@ -1,10 +1,10 @@
 
-export class serviceLocator {
+export class ServiceLocator {
     static services = {};
 
     getServices()
     {
-        return serviceLocator.services;
+        return ServiceLocator.services;
     }
 
 }
