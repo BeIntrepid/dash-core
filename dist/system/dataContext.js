@@ -8,11 +8,23 @@ System.register([], function (_export) {
     return {
         setters: [],
         execute: function () {
-            DataContext = function DataContext() {
-                _classCallCheck(this, DataContext);
+            DataContext = (function () {
+                function DataContext() {
+                    _classCallCheck(this, DataContext);
 
-                this.components = [];
-            };
+                    this._streams = {};
+                }
+
+                DataContext.prototype.registerStream = function registerStream(name, stream) {
+                    if (this._streams[name] != null) {
+                        throw "Stream already registered under this name";
+                    }
+
+                    this._streams[name] = stream;
+                };
+
+                return DataContext;
+            })();
 
             _export("DataContext", DataContext);
         }
